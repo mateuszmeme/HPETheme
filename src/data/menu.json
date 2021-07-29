@@ -1,0 +1,75 @@
+{
+    "central":[
+        {
+            "id": "1",
+            "name":"Catalog",
+            "route":""
+        },
+
+        {
+            "id": "2",
+            "name":"Administration",
+            "route":""
+        }
+    ],  
+    
+    "cloud":[
+        {
+            "id": "1",
+            "name":"Greenlake Services",
+            "route":""
+        }
+    ],  
+    
+    "cloudConsoles":[
+        {
+            "id": "1",
+            "name":"Connectivity",
+            "route":""
+        },
+        
+        {
+            "id": "2",
+            "name":"Compute",
+            "route":""
+        },
+        
+        {
+            "id": "3",
+            "name":"Data Services",
+            "route":""
+        }
+    ],
+    "resources":[
+        {
+            "id": "1",
+            "name":"Developer",
+            "route":""
+        },
+        {
+            "id": "2",
+            "name":"Support",
+            "route":""
+        },
+        {
+            "id": "3",
+            "name":"Partnerships",
+            "route":""
+        },
+        {
+            "id": "4",
+            "name":"Financial Services",
+            "route":""
+        }
+    ],
+    "others": [
+          {
+            "id": "1",
+            "name":"www.hpe.com",
+            "route":""
+        }
+    ]
+
+
+
+}

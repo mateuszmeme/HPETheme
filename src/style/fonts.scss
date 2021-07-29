@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'MetricHPE';
+    src: url('https://securecdn.now.hpe.com/hpnn/css/fonts/v2/MetricWeb-Regular.eot');
+    src: url('https://securecdn.now.hpe.com/hpnn/css/fonts/v2/MetricWeb-Regular.eot?#iefix') format('embedded-opentype'), url('https://securecdn.now.hpe.com/hpnn/css/fonts/v2/MetricWeb-Regular.woff') format('woff'), url('https://securecdn.now.hpe.com/hpnn/css/fonts/v2/MetricWeb-Regular.ttf') format('truetype'), url('https://securecdn.now.hpe.com/hpnn/css/fonts/v2/MetricWeb-Regular.svg#Metric') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MetricHPE';
+    src: url('https://securecdn.now.hpe.com/hpnn/css/fonts/v2/MetricWeb-Light.eot');
+    src: url('https://securecdn.now.hpe.com/hpnn/css/fonts/v2/MetricWeb-Light.eot?#iefix') format('embedded-opentype'), url('https://securecdn.now.hpe.com/hpnn/css/fonts/v2/MetricWeb-Light.woff') format('woff'), url('https://securecdn.now.hpe.com/hpnn/css/fonts/v2/MetricWeb-Light.ttf') format('truetype'), url('https://securecdn.now.hpe.com/hpnn/css/fonts/v2/MetricWeb-Light.svg#Metric') format('svg');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MetricHPE';
+    src: url('https://securecdn.now.hpe.com/hpnn/css/fonts/v2/MetricWeb-Medium.eot');
+    src: url('https://securecdn.now.hpe.com/hpnn/css/fonts/v2/MetricWeb-Medium.eot?#iefix') format('embedded-opentype'), url('https://securecdn.now.hpe.com/hpnn/css/fonts/v2/MetricWeb-Medium.woff') format('woff'), url('https://securecdn.now.hpe.com/hpnn/css/fonts/v2/MetricWeb-Medium.ttf') format('truetype'), url('https://securecdn.now.hpe.com/hpnn/css/fonts/v2/MetricWeb-Medium.svg#Metric') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MetricHPE';
+    src: url('https://securecdn.now.hpe.com/hpnn/css/fonts/v2/MetricWeb-Medium.eot');
+    src: url('https://securecdn.now.hpe.com/hpnn/css/fonts/v2/MetricWeb-Medium.eot?#iefix') format('embedded-opentype'), url('https://securecdn.now.hpe.com/hpnn/css/fonts/v2/MetricWeb-Medium.woff') format('woff'), url('https://securecdn.now.hpe.com/hpnn/css/fonts/v2/MetricWeb-Medium.ttf') format('truetype'), url('https://securecdn.now.hpe.com/hpnn/css/fonts/v2/MetricWeb-Medium.svg#Metric') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MetricHPE';
+    src: url('https://securecdn.now.hpe.com/hpnn/css/fonts/v2/MetricWeb-Semibold.eot');
+    src: url('https://securecdn.now.hpe.com/hpnn/css/fonts/v2/MetricWeb-Semibold.eot?#iefix') format('embedded-opentype'), url('https://securecdn.now.hpe.com/hpnn/css/fonts/v2/MetricWeb-Semibold.woff') format('woff'), url('https://securecdn.now.hpe.com/hpnn/css/fonts/v2/MetricWeb-Semibold.ttf') format('truetype'), url('https://securecdn.now.hpe.com/hpnn/css/fonts/v2/MetricWeb-Semibold.svg#Metric') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MetricHPE';
+    src: url('https://securecdn.now.hpe.com/hpnn/css/fonts/v2/MetricWeb-Bold.eot');
+    src: url('https://securecdn.now.hpe.com/hpnn/css/fonts/v2/MetricWeb-Bold.eot?#iefix') format('embedded-opentype'), url('https://securecdn.now.hpe.com/hpnn/css/fonts/v2/MetricWeb-Bold.woff') format('woff'), url('https://securecdn.now.hpe.com/hpnn/css/fonts/v2/MetricWeb-Bold.ttf') format('truetype'), url('https://securecdn.now.hpe.com/hpnn/css/fonts/v2/MetricWeb-Bold.svg#Metric') format('svg');
+    font-weight: 800;
+    font-style: normal;
+}
+
+
+html, body, .-hpe--service, html .-hpe--service, input, textarea, select, span {
+    font-family: 'MetricHPE', Arial;
+}
+
+body {
+    font-family: "Metric", "sans-serif";
+    font-size: 1.125rem;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1.222;
+    color: black;
+}
+
+body em {
+    font-style: italic;
+}
+
+body strong {
+    font-weight: 600;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Metric", "sans-serif";
+    font-weight: 700;
+    font-style: normal;
+}
+
+h1 em,
+h2 em,
+h3 em {
+    font-style: italic;
+}
+
+h1 strong,
+h2 strong,
+h3 strong {
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 2.25rem;
+}

@@ -1,0 +1,284 @@
+{
+  "header": {
+    "endpoints": {
+      "peoplefinder": "https://peoplefinder.glb.itcs.hpecorp.net/PeopleFinder/PeopleFinder.aspx",
+      "peoplefinderSuggestions": "https://ess-int.glb.itcs.hpecorp.net/int/autocomplete?profile=PeopleFinderAC&jsoncallback=${CALLBACK}&query=${QUERY}&postfilter=cmp:HPE%20AND%20group:PeopleFinder&limit=8",
+      "search": "https://homesearch.now.hpe.com/",
+      "searchQueryurl": "https://homesearch.now.hpe.com/?searchtext=${QUERY}",
+      "searchSuggestions": "https://homesearch.now.hpe.com/Suggest/Csom?jsoncallback=${CALLBACK}&querytext=${QUERY}"
+    },
+    "links": [
+      {
+        "icon": "https://securecdn.now.hpe.com/getmedia/4339bdea-e9e6-4b54-941d-46b1abcea538/icon-placeholder.aspx",
+        "label": "Top Tools",
+        "links": [
+          {
+            "icon": "https://securecdn.now.hpe.com/getmedia/4339bdea-e9e6-4b54-941d-46b1abcea538/icon-placeholder.aspx",
+            "label": "General",
+            "isActive": false,
+            "links": [
+              {
+                "icon": "https://securecdn.now.hpe.com/getmedia/5719e423-cb49-4d4f-b746-0d5d1655af12/icon-placeholder_1.aspx",
+                "label": "Accelerating U",
+                "href": "https://hpe.sabacloud.com/",
+                "target": "_blank"
+              },
+              {
+                "icon": "https://securecdn.now.hpe.com/getmedia/5719e423-cb49-4d4f-b746-0d5d1655af12/icon-placeholder_1.aspx",
+                "label": "Ariba",
+                "href": "https://hpe.sharepoint.com/sites/F3/COO/procurementcentral/ariba/SitePages/home.aspx",
+                "target": "_blank"
+
+              },
+              {
+                "label": "beHPE",
+                "icon": "https://securecdn.now.hpe.com/getmedia/5719e423-cb49-4d4f-b746-0d5d1655af12/icon-placeholder_1.aspx",
+                "href": "https://amplify.hpe.com",
+                "target": "_blank"
+              },
+              {
+                "label": "Brand Central",
+                "icon": "https://securecdn.now.hpe.com/getmedia/5719e423-cb49-4d4f-b746-0d5d1655af12/icon-placeholder_1.aspx",
+                "href": "https://h10014.www1.hpe.com/hpe/user_home.aspx",
+                "target": "_blank"
+              },
+              {
+                "icon": "https://securecdn.now.hpe.com/getmedia/5719e423-cb49-4d4f-b746-0d5d1655af12/icon-placeholder_1.aspx",
+                "label": "Expense Reimbursement",
+                "href": "https://hpe.sharepoint.com/sites/F2/CFO/employee-expense-reimbursement/Pages/Home.aspx",
+                "target": "_blank",
+                "type": "internal"
+              },
+              {
+                "icon": "https://securecdn.now.hpe.com/getmedia/5719e423-cb49-4d4f-b746-0d5d1655af12/icon-placeholder_1.aspx",
+                "label": "myITservices",
+                "href": "http://propel-pro.houston.hp.com/propel/CMP_HP/Service/Service",
+                "target": "_blank"
+              },
+              {
+                "icon": "https://securecdn.now.hpe.com/getmedia/5719e423-cb49-4d4f-b746-0d5d1655af12/icon-placeholder_1.aspx",
+                "label": "myITsupport",
+                "href": "https://myitsupport.ext.hpe.com/ITSHome",
+                "target": "_blank"
+              },
+              {
+                "icon": "https://securecdn.now.hpe.com/getmedia/5719e423-cb49-4d4f-b746-0d5d1655af12/icon-placeholder_1.aspx",
+                "label": "Procurement Central",
+                "href": "https://hpe.sharepoint.com/sites/F3/COO/procurementcentral/sitepages/home.aspx",
+                "target": "_blank"
+              },
+              {
+                "icon": "https://securecdn.now.hpe.com/getmedia/5719e423-cb49-4d4f-b746-0d5d1655af12/icon-placeholder_1.aspx",
+                "label": "Standards of Business Conduct",
+                "href": "https://sbc.hpe.com/",
+                "target": "_blank"
+              },
+              {
+                "icon": "https://securecdn.now.hpe.com/getmedia/5719e423-cb49-4d4f-b746-0d5d1655af12/icon-placeholder_1.aspx",
+                "label": "Travel",
+                "href": "https://hpe.sharepoint.com/sites/F3/COO/travel/sitepages/home.aspx",
+                "target": "_blank"
+              },
+              {
+                "icon": "https://securecdn.now.hpe.com/getmedia/5719e423-cb49-4d4f-b746-0d5d1655af12/icon-placeholder_1.aspx",
+                "label": "Yammer",
+                "href": "https://yammer.com/hpe.com",
+                "target": "_blank"
+              }
+
+            ]
+          },
+          {
+            "icon": "https://securecdn.now.hpe.com/getmedia/4339bdea-e9e6-4b54-941d-46b1abcea538/icon-placeholder.aspx",
+            "label": "Human Resources",
+            "isActive": false,
+            "links": [
+              {
+                "icon": "",
+                "label": "AskHR",
+                "href": "https://myitsupport.ext.hpe.com/HRHome",
+                "target": "_blank"
+              },
+              {
+                "icon": "",
+                "label": "Career Center",
+                "href": "https://content.int.hpe.com/sites/CareerDevelopment/Home.page",
+                "type": "internal",
+                "target": "_blank"
+              },
+              {
+                "icon": "https://securecdn.now.hpe.com/getmedia/5719e423-cb49-4d4f-b746-0d5d1655af12/icon-placeholder_1.aspx",
+                "label": "Job Search",
+                "href": "https://content.int.hpe.com/sites/GblCareerOpp/JobSearcher_CareerOpportunities.page",
+                "type": "internal",
+                "target": "_blank"
+              },
+              {
+                "icon": "https://securecdn.now.hpe.com/getmedia/5719e423-cb49-4d4f-b746-0d5d1655af12/icon-placeholder_1.aspx",
+                "label": "HPE Open Line",
+                "href": "https://hr.hpe.com/hpe-open-line",
+                "type": "internal",
+                "target": "_blank"
+              },
+              {
+                "icon": "https://securecdn.now.hpe.com/getmedia/5719e423-cb49-4d4f-b746-0d5d1655af12/icon-placeholder_1.aspx",
+                "label": "Holidays",
+                "href": "https://content.int.hpe.com/sites/TotalRewards/Global_Holiday_Calendar.page",
+                "type": "internal",
+                "target": "_blank"
+              },
+              {
+                "icon": "https://securecdn.now.hpe.com/getmedia/5719e423-cb49-4d4f-b746-0d5d1655af12/icon-placeholder_1.aspx",
+                "label": "Human Resources Home",
+                "href": "https://hr.hpe.com/",
+                "type": "internal",
+                "target": "_blank"
+              },
+              {
+                "icon": "https://securecdn.now.hpe.com/getmedia/5719e423-cb49-4d4f-b746-0d5d1655af12/icon-placeholder_1.aspx",
+                "label": "Life Inside the Element",
+                "href": "https://hpe.sharepoint.com/sites/webelieve",
+                "target": "_blank"
+              },
+              {
+                "icon": "https://securecdn.now.hpe.com/getmedia/5719e423-cb49-4d4f-b746-0d5d1655af12/icon-placeholder_1.aspx",
+                "label": "My Success Plan",
+                "href": "https://hr.hpe.com/My-Success-Plan",
+                "type": "internal",
+                "target": "_blank"
+              },
+              {
+                "icon": "https://securecdn.now.hpe.com/getmedia/5719e423-cb49-4d4f-b746-0d5d1655af12/icon-placeholder_1.aspx",
+                "label": "Payroll",
+                "href": "https://content.int.hpe.com/sites/Payroll/Home.page",
+                "type": "internal",
+                "target": "_blank"
+              },
+              {
+                "icon": "https://securecdn.now.hpe.com/getmedia/5719e423-cb49-4d4f-b746-0d5d1655af12/icon-placeholder_1.aspx",
+                "label": "Recognition",
+                "href": "https://hpe.sharepoint.com/teams/hpe-recognition",
+                "type": "internal",
+                "target": "_blank"
+              },
+              {
+                "icon": "https://securecdn.now.hpe.com/getmedia/5719e423-cb49-4d4f-b746-0d5d1655af12/icon-placeholder_1.aspx",
+                "label": "Time Card (US)",
+                "href": "https://wd5.myworkday.com/hpe/d/task/23748$24.htmld#TABINDEX=0",
+                "target": "_blank"
+              },
+              {
+                "icon": "https://securecdn.now.hpe.com/getmedia/5719e423-cb49-4d4f-b746-0d5d1655af12/icon-placeholder_1.aspx",
+                "label": "EeTime",
+                "href": "https://login.ext.hpe.com/idp/startSSO.ping?PartnerSpId=https://fed.adp.com&TargetResource=https://fed.adp.com/saml/fedlanding.html?EETDC2NA",
+                "target": "_blank"
+              },
+              {
+                "icon": "https://securecdn.now.hpe.com/getmedia/5719e423-cb49-4d4f-b746-0d5d1655af12/icon-placeholder_1.aspx",
+                "label": "Workday",
+                "href": "https://wd5.myworkday.com/hpe/d/home.htmld",
+                "target": "_blank"
+
+              }
+            ]
+          },
+          {
+            "icon": "https://securecdn.now.hpe.com/getmedia/4339bdea-e9e6-4b54-941d-46b1abcea538/icon-placeholder.aspx",
+            "label": "People Leaders",
+            "isActive": false,
+            "links": [
+              {
+                "icon": "https://securecdn.now.hpe.com/getmedia/5719e423-cb49-4d4f-b746-0d5d1655af12/icon-placeholder_1.aspx",
+                "label": "Contingent Worker HR Compliance",
+                "href": "https://content.int.hpe.com/sites/GblContingentWorkforce/Home.page",
+                "type": "internal",
+                "target": "_blank"
+              },
+              {
+                "icon": "https://securecdn.now.hpe.com/getmedia/5719e423-cb49-4d4f-b746-0d5d1655af12/icon-placeholder_1.aspx",
+                "label": "Leader Hub",
+                "href": "https://hpe.sharepoint.com/sites/LeaderHub",
+                "type": "internal",
+                "target": "_blank"
+              },
+              {
+                "icon": "https://securecdn.now.hpe.com/getmedia/5719e423-cb49-4d4f-b746-0d5d1655af12/icon-placeholder_1.aspx",
+                "label": "Manager Gateway",
+                "href": "https://content.int.hpe.com/sites/ManagerGateway/smp/protected/Home.page",
+                "target": "_blank",
+                "type": "internal"
+              },
+              {
+                "icon": "https://securecdn.now.hpe.com/getmedia/5719e423-cb49-4d4f-b746-0d5d1655af12/icon-placeholder_1.aspx",
+                "label": "My Team’s Hiring & Onboarding",
+                "href": "https://wd5.myworkday.com/hpe/d/task/23748$23.htmld#TABINDEX=0",
+                "target": "_blank"
+              },
+              {
+                "icon": "https://securecdn.now.hpe.com/getmedia/5719e423-cb49-4d4f-b746-0d5d1655af12/icon-placeholder_1.aspx",
+                "label": "SmartLabor II",
+                "href": "https://hpe.sharepoint.com/sites/F3/COO/procurementcentral/smartlaborII/sitepages/home.aspx",
+                "target": "_blank"
+              }
+            ]
+          },
+          {
+            "icon": "https://securecdn.now.hpe.com/getmedia/4339bdea-e9e6-4b54-941d-46b1abcea538/icon-placeholder.aspx",
+            "label": "Sales",
+            "isActive": false,
+            "links": [
+              {
+                "icon": "https://securecdn.now.hpe.com/getmedia/5719e423-cb49-4d4f-b746-0d5d1655af12/icon-placeholder_1.aspx",
+                "label": "Account Insights",
+                "href": "https://bmsportal.itcs.hpecorp.net/category/account-insights",
+                "target": "_blank"
+              },
+              {
+                "icon": "https://securecdn.now.hpe.com/getmedia/5719e423-cb49-4d4f-b746-0d5d1655af12/icon-placeholder_1.aspx",
+                "label": "My Learning",
+                "href": "https://www.mylearninghpe.com",
+                "target": "_blank"
+              },
+              {
+                "icon": "https://securecdn.now.hpe.com/getmedia/5719e423-cb49-4d4f-b746-0d5d1655af12/icon-placeholder_1.aspx",
+                "label": "Product & Solutions Now",
+                "href": "https://psnow.ext.hpe.com/#/",
+                "target": "_blank"
+              },
+              {
+                "icon": "https://securecdn.now.hpe.com/getmedia/5719e423-cb49-4d4f-b746-0d5d1655af12/icon-placeholder_1.aspx",
+                "label": "Proposal Web",
+                "href": "https://proposalweb.ext.hpe.com/houston/Pages/default.aspx",
+                "target": "_blank"
+              },
+              {
+                "icon": "https://securecdn.now.hpe.com/getmedia/5719e423-cb49-4d4f-b746-0d5d1655af12/icon-placeholder_1.aspx",
+                "label": "Sales Comp Resource Central",
+                "href": "https://hpe.sharepoint.com/sites/SalesComp",
+                "target": "_blank"
+              },
+              {
+                "icon": "https://securecdn.now.hpe.com/getmedia/5719e423-cb49-4d4f-b746-0d5d1655af12/icon-placeholder_1.aspx",
+                "label": "Salesforce.com",
+                "href": "https://hpvertica.secure.force.com/SSOLoginPage/",
+                "target": "_blank"
+              },
+              {
+                "icon": "https://securecdn.now.hpe.com/getmedia/5719e423-cb49-4d4f-b746-0d5d1655af12/icon-placeholder_1.aspx",
+                "label": "HPE Sales Pro",
+                "href": " https://salespro.hpe.com/",
+                "target": "_blank"
+              },
+              {
+                "icon": "https://securecdn.now.hpe.com/getmedia/5719e423-cb49-4d4f-b746-0d5d1655af12/icon-placeholder_1.aspx",
+                "label": "Seismic",
+                "href": "https://hpe.seismic.com/",
+                "target": "_blank"
+              }
+            ]
+         }
+        ]
+      }
+    ]
+  }
+}

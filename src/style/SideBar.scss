@@ -1,0 +1,42 @@
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  padding-left: 20px;
+  margin: 12px 0;
+}
+
+ul li {
+  list-style: none;
+  font-size: 14px;
+  font-weight: 800;
+  margin: 3px 0;
+}
+
+.SideBarMenuHeading {
+  font-size: 10px;
+  margin: 10px 0 0 0;
+  padding: 0 0 0 20px;
+  text-transform: uppercase;
+}
+
+.SideBarMenuSeperator {
+  border-color: white;
+  background-color: white;
+  left: 0;
+  width: 30vh;
+  margin: 0 9px;
+}
+
+.menu-drop-button {
+  // Grommet is not allowing to add the custom class to the parent menu div
+  // and adding dynamic styles on scroll so need to overirde the same
+  max-height: unset !important;
+}
+
+// styles needed to hide the main menu box when child menu is opened
+.SideBarHidden {
+  visibility: hidden;
+}

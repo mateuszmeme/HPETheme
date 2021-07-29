@@ -1,0 +1,20 @@
+{
+    "FirstName":"Jose",
+    "LastName":"Perez",
+    "Email":"jose-manuel.perez@hpe.com",
+    "Title":"",
+    "Location":" All,  United States",
+    "PhoneNumber":"+1 415 2440413",
+    "AvatarURL":"https://securecdn.now.hpe.com/CMSPages/GetAvatar.aspx?avatarguid=c7418e55-1634-4905-ad21-8ec0057dcc4f",
+    "ZipCode":"", 
+    "Organization":"Creative Services", 
+    "BusinessUnit":"Global Communications", 
+    "Country":"United States", 
+    "ManagerFirstName":"Greg", 
+    "ManagerLastName":"Epstein", 
+    "EncryptedManagerEmployeeNumber":"MjIwMTY4MDM=", 
+    "EncryptedEmployeeNumber":"MjAwOTk0NDY=", 
+    "IsContingent":false, 
+    "IsManager":false, 
+    "IsSales":false
+}
