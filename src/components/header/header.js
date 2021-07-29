@@ -11,6 +11,10 @@ import SideBar from "../Overlays/SideBar";
 
 import { StateContext } from "../../context/StateProvider";
 
+/* Have a mix of Grommet's theme, styled-components and CSS implementations. Recommend
+ * adopting Grommet's theme and styled-components and eliminating any CSS / SCSS which 
+ * can be a headache troubleshooting and maintaining.
+ */
 import "../../style/Header.scss";
 import '../../style/navbar.scss'
 
@@ -94,6 +98,9 @@ const HeaderLight = ({ config }) => {
     //}
 
     return (
+        /* FYI, Grommet has a Header component which might be worth looking into.
+         * https://v2.grommet.io/header
+         */
         <header className={navbarClasses.join(" ")}>
             <Box
                 elevation={themeTransperent ? "none" : "small"}
@@ -106,7 +113,10 @@ const HeaderLight = ({ config }) => {
                     height: "60px",
                     zIndex: "999",
                 }}
-                background={themeTransperent ? "header-tranperent" : "normal-bg"}
+                /* When themeTrasnsperent, do not specify a background, let underlying 
+                 * contents show through.
+                 */
+                background={themeTransperent ? null : "normal-bg"}
             >
                 <Box direction="row" align="center">
                     <Image fit="contain" width="100px" src="https://stage.news.now.hpe.com/hpnn/next/images/logo_insider.svg" />

@@ -1,6 +1,6 @@
 import React, { useContext, useEffect } from "react";
 
-import { Box, Grommet } from "grommet";
+import { Box, Grommet, Text } from "grommet";
 import { hpe } from "grommet-theme-hpe";
 
 import { customHpe } from "../../theme/customTheme";
@@ -48,8 +48,21 @@ const HeaderApp = ({config}) => {
   }, []);
 
   return (
-		<Grommet theme={theme} themeMode={themeMode} background={themeTransperent ? "header-tranperent" : null}>           
+    /* Set app background color based on themeMode */
+		<Grommet theme={theme} themeMode={themeMode} background="normal-bg">
 		  <HeaderLight config={config} />
+      <Box height="medium" background="blue">
+        <Text>Section 1 content</Text>
+      </Box>
+      <Box height="medium">
+        <Text>Section 2 content</Text>
+      </Box>
+      <Box height="medium" background="purple">
+        <Text>Section 3 content</Text>
+      </Box>
+      <Box height="medium" background="white">
+        <Text>Section 4 content</Text>
+      </Box>
 		</Grommet>
   );
 };
