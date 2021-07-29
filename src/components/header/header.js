@@ -12,6 +12,7 @@ import SideBar from "../Overlays/SideBar";
 import { StateContext } from "../../context/StateProvider";
 
 import "../../style/Header.scss";
+import '../../style/navbar.scss'
 
 import { ThemeContext } from "../../context/ThemeContext";
 import StockHeader from './StockHeader'
@@ -19,6 +20,31 @@ import * as stockData from '../../data/stock.json';
 //import * as profileData from '../../data/profile.json';
 
 const HeaderLight = ({ config }) => {
+    
+    //console.log('stickyHeader:' +  config.stickyHeader );
+  const [scrolled, setScrolled] = React.useState(false);
+  const handleScroll = () => {
+    const offset = window.scrollY;
+    if (offset > 60) {
+      setScrolled(true);
+    }
+    else {
+      setScrolled(false);
+    }
+  }
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll)
+  })
+
+  let navbarClasses = [''];
+  if (config.stickyHeader) {
+    navbarClasses = ['navbar'];
+    if (scrolled) {
+      navbarClasses.push('scrolled');
+    }
+  }
+
     const context = useContext(StateContext);
     const { themeTransperent } = useContext(ThemeContext);
 
@@ -68,7 +94,7 @@ const HeaderLight = ({ config }) => {
     //}
 
     return (
-        <header>
+        <header className={navbarClasses.join(" ")}>
             <Box
                 elevation={themeTransperent ? "none" : "small"}
                 direction="row"

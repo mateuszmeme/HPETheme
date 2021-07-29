@@ -6,10 +6,11 @@ export const customHpe = {
         light: "#fff",
       },
       "header-tranperent": {
-        dark: "#263040",
+        dark: "transparent",
         light: "transparent",
       },
-      text: {        
+      text: {      
+        dark: 'white',
         light: '#444444',
       },
     },

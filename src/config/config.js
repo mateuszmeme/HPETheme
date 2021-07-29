@@ -4,8 +4,9 @@ export const defaults = {
   stickyHeader: true,
   smallHeader: false,
   openLinkNewWindow: false,
-    transparentHeader: false,
-    cssBaseUrl: '',
+  themeSelected: 'dark', //'dark' or 'light'
+  themeTransperent: true, // true or false
+  cssBaseUrl: '',
   header: {
     el: "#hpe-global-header-service",
     search: {
