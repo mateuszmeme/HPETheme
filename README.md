@@ -11,7 +11,7 @@ themeSelected: 'dark', //'dark' or 'light'
 themeTransperent: true, // true or false
 <br/>
 <br/>
-the issue is that when you set the Theme to dark and Transparent to true - the theme stays goes with light.
+the issue is that when you set the Theme to dark and Transparent to true - the theme goes with light theme.
 <br/><br/>
 We are updating the background with a deep merge in the css:
 <br/>
